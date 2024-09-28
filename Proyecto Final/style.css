@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+  background-image: url('https://www.ngenespanol.com/wp-content/uploads/2024/07/como-ver-a-la-deslumbrante-andromeda-nuestra-galaxia-vecina.jpg');
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-attachment: fixed;
+
+  background-color: #cccccc;
+}
+  .banner {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 24px;
+  }
+  .container {
+    display: flex;
+    padding: 20px;
+  }
+  .column {
+    flex: 1;
+    padding: 10px;
+    background-color: #f4f4f4;
+margin: 10px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+
+  .about-body {
+    background-image: url('https://www.shutterstock.com/shutterstock/videos/34078918/thumb/1.jpg?ip=x480');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+
+  .html-body {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/164/701/172/toy-story-animated-movies-movies-clouds-wallpaper-preview.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+  
+  .centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .centered-content h1 {
+    margin: 10px 0;
+  }
+  
+  .centered-content button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px
+  }
+  .resized-image {
+    width: 30%;
+    height: auto;
+}
+.resized-image-2 {
+  width: 40%;
+  height: auto;
+}
