@@ -1,0 +1,22 @@
+#contenedor-collage{
+  border-style: solid;
+  border-color: red;
+  width: 50vw;
+  height: 50vh;
+  position: relative;
+}
+
+#tv{
+  width: 50%;
+
+  position: absolute;
+}
+
+#noise{
+  width: 50%;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  
+  /*z-index: -10;*/
+}
