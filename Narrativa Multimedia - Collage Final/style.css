@@ -1,0 +1,74 @@
+body {
+  /* margin: 0; */
+   background-image: url(https://thumbs.dreamstime.com/b/illuminated-soccer-field-colorful-fog-vibrant-atmosphere-night-setting-goalpost-background-grass-texture-visible-356808745.jpg);
+ }
+ 
+ #contenedor-collage {
+  background-image: url(https://img.freepik.com/premium-photo/american-football-soccer-stadium_336913-544.jpg);
+  border-style: solid;
+   width: 60vw;
+   height: 60vw;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ 
+ #Leyenda {
+   position: absolute;
+   right: -2%;
+   top: -3%;
+   width: 103%;
+ }
+ #Cristiano {
+   position: absolute;
+   bottom: -10%;
+   right: -15%;
+   width: 65%;
+ }
+ 
+ #Cristiano:hover{
+  width: 69%;
+} 
+
+ #ElDiegote {
+   position: absolute;
+   width: 50%;
+   bottom: 0%;
+   right: 36%;
+ }
+ 
+ #ElDiegote:hover{
+  width: 55%;
+} 
+
+ #Messi {
+   position: absolute;
+   width: 65%;
+   bottom: -5%;
+   right: 20%;
+ }
+ 
+ #Messi:hover{
+  width: 67%;
+} 
+ #Pele {
+   position: absolute;
+   width: 65%;
+   bottom: 0%;
+   right: 0%;
+ }
+
+ #Pele:hover{
+  width: 69%;
+} 
+
+ #Dinho {
+   position: absolute;
+   width: 44%;
+   bottom: 0%;
+   right: 65%;
+ }
+
+ #Dinho:hover{
+  width: 48%;
+} 
