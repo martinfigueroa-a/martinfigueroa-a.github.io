@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap");
+
+body {
+  height: 94vh;
+  background-color: black;
+  margin: 0;
+}
+
+h1 {
+  font-size: 5vw;
+  margin-left: 35vw;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  color: #e3dac9;
+  font-family: "Courier Prime", serif;
+  font-weight: 700;
+  font-style: normal
+}
+h2 {
+  font-size: 2.2vw;
+  margin-left: 23vw;
+  margin-top: 1vw;
+  margin-bottom: 0px;
+  color: #e3dac9;
+  font-family: "Courier Prime", serif;
+  font-weight: 700;
+  font-style: normal
+}
+h3 {
+  /*font-family: "Roboto", serif;*/
+  font-size: 2.2vw; /*/ tamaño de la letra*/
+  margin-left: 22.8vw;
+  margin-top: -0.8vw;
+  margin-bottom: 0px;
+  color: #e3dac9;
+  font-family: "Courier Prime", serif;
+  font-weight: 700;
+  font-style: normal
+}
+
+#descripcion {
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2.2vw; /*/ tamaño de la letra*/
+  margin-top: 1vw;
+  margin-bottom: 0px;
+  color: #e3dac9;
+    font-family: "Courier Prime", serif;
+  font-weight: 700;
+  font-style: normal
+}
+
+#cuarto {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+#contenedor {
+  border-style: solid;
+  border-width: 2vw;
+  width: 60vw; /* toma un ancho de 50% respecto al ancho del viewport, por eso se usa la unidad vh, que significa 'viewport width'*/
+  height: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #e3dac9;
+  /* agregar position:relative */
+  position: relative; /*se agrega 'position: relative' para que las imágenes hijas (si ellas tienen 'position: absolute') se ajusten según la posición y tamaño de este contenedor "padre"*/
+}
+
+#pata1 {
+  width: 30%;
+  position: absolute;
+  top: 56%;
+  left: 15%;
+  transform: rotate(20deg) scaleX(-1);
+}
+#pata2 {
+  width: 30%;
+  position: absolute;
+  top: 56%;
+  left: 58%;
+  transform:rotate(-14deg)
+}
+#piernas2 {
+  width: 30%;
+  position: absolute;
+  top: 60.5%;
+  left: 32%;
+  transform: rotate(197deg);
+}
+#manoscreepy {
+  width: 40%;
+  position: absolute;
+  top: -15%;
+  left: 30%;
+}
+#brazo1 {
+  width: 50%;
+  position: absolute;
+  top: 7%;
+  left: 55%;
+  transform: rotate(160deg);
+}
+
+#brazo2 {
+  width: 50%;
+  position: absolute;
+  top: 15%;
+  left: 0%;
+  transform: rotate(70deg);
+}
+
+#cuerpo {
+  width: 65%;
+  position: absolute;
+  margin-left: 30%; /* como el ancho del audiomixer es 50%, a lado y lado debe tener una margen de 25% y 25%, ya que 50% es el espacio libre que queda*/
+  margin-right: 30%;
+  top: 11%;
+  left: -9%;
+}
+
+#hilo {
+  width: 50%;
+  position: absolute;
+  margin-left: 30%; /* como el ancho del audiomixer es 50%, a lado y lado debe tener una margen de 25% y 25%, ya que 50% es el espacio libre que queda*/
+  margin-right: 30%;
+  top: 55%;
+  left: 0%;
+}
+
+#oreja1 {
+  width: 20%;
+  position: absolute;
+  top: 39%;
+  left: 19%;
+}
+#ojo1 {
+  width: 10%;
+  position: absolute;
+  top: 25%;
+  left: 56%;
+}
+
+#ojo2 {
+  width: 10%;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+}
+
+#boca1 {
+  width: 20%;
+  position: absolute;
+  top: 55%;
+  left: 33%;
+  transform: rotate(-170deg);
+}
+
+#pelo {
+  width: 60%;
+  position: absolute;
+  top: 5%;
+  left: 26%;
+}
